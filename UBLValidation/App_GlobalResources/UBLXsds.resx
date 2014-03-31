@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CCTS_CCT_SchemaModule_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ccts_cct_schemamodule-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CodeList_CurrencyCode_ISO_7_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\codelist_currencycode_iso_7_04.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CodeList_LanguageCode_ISO_7_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\codelist_languagecode_iso_7_04.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CodeList_MIMEMediaTypeCode_IANA_7_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\codelist_mimemediatypecode_iana_7_04.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CodeList_UnitCode_UNECE_7_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\codelist_unitcode_unece_7_04.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="OIOUBL_UTS_CommonAggregateComponents_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\oioubl_uts-commonaggregatecomponents-2.1.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OIOUBL_UTS_CommonBasicComponents_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\oioubl_uts-commonbasiccomponents-2.1.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_ApplicationResponse_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-applicationresponse-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_AttachedDocument_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-attacheddocument-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_BillOfLading_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-billoflading-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CatalogueDeletion_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-cataloguedeletion-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CatalogueItemSpecificationUpdate_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-catalogueitemspecificationupdate-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CataloguePricingUpdate_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-cataloguepricingupdate-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CatalogueRequest_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-cataloguerequest-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Catalogue_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-catalogue-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CertificateOfOrigin_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-certificateoforigin-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CommonAggregateComponents_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-commonaggregatecomponents-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CommonBasicComponents_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-commonbasiccomponents-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CommonExtensionComponents_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-commonextensioncomponents-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CoreComponentParameters_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-corecomponentparameters-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_CreditNote_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-creditnote-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_DebitNote_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-debitnote-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_DespatchAdvice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-despatchadvice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_ExtensionContentDatatype_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-extensioncontentdatatype-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_ForwardingInstructions_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-forwardinginstructions-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_FreightInvoice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-freightinvoice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Invoice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-invoice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_OrderCancellation_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-ordercancellation-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_OrderChange_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-orderchange-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_OrderResponseSimple_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-orderresponsesimple-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_OrderResponse_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-orderresponse-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Order_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-order-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_PackingList_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-packinglist-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_QualifiedDatatypes_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\ubl-qualifieddatatypes-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Quotation_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-quotation-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_ReceiptAdvice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-receiptadvice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Reminder_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-reminder-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_RemittanceAdvice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-remittanceadvice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_RequestForQuotation_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-requestforquotation-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_SelfBilledCreditNote_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-selfbilledcreditnote-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_SelfBilledInvoice_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-selfbilledinvoice-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Statement_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-statement-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_TransportationStatus_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-transportationstatus-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_UtilityStatement_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-utilitystatement-2.1.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UBL_Waybill_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\maindoc\ubl-waybill-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UnqualifiedDataTypeSchemaModule_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ublschemes\common\unqualifieddatatypeschemamodule-2.0.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>
